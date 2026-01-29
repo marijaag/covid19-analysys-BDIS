@@ -205,3 +205,13 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Isključujemo sve CSV i Excel fajlove jer su preveliki za GitHub
+*.csv
+*.xlsx
+*.zip
+data/
+
+# IDE specifični fajlovi (ako neko koristi PyCharm ili VS Code)
+.idea/
+.vscode/
